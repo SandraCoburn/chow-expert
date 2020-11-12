@@ -1,0 +1,13 @@
+.demo-layout-transparent {
+  background: url('../imgs/banner-2369464__340.webp') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.mdl-layout__drawer .mdl-layout-title {
+  background-image: -webkit-linear-gradient(0deg, #26272e 0%, #48444b 100%);
+  background-image: linear-gradient(0deg, #494b5c 0%, #ded5e4 100%);
+}
