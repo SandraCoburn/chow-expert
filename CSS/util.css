@@ -1,3 +1,29 @@
 .mdl-navigation__link {
   text-transform: uppercase;
+  text-shadow: blue;
+  font-weight: 500;
+}
+.mdl-layout__header-row .mdl-navigation__link {
+  color: black;
+}
+.text-black {
+  color: black;
+}
+.banner-img img {
+  border-radius: 4px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.fw-300 {
+  font-weight: 400;
+}
+.btn-white {
+  background: rgb(165, 41, 41);
+  color: white;
+}
+.btn-white:hover {
+  background: white;
+  color: rgb(165, 41, 41);
+  border: 1px solid rgb(165, 41, 41);
 }
