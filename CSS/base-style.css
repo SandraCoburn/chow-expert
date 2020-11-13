@@ -15,7 +15,28 @@
 .nav {
   padding: 0 12%;
 }
-#home {
+#home,
+#champion {
   width: 70%;
   margin: 0 auto;
+}
+/* Champion */
+.champions .card {
+  box-shadow: 0px 10px 30px 0px rgba(63, 41, 8, 0.2);
+}
+.champions .thumb {
+  background: rgb(241, 235, 230);
+  padding: 4rem 0;
+}
+.champions .info {
+  background: #f9f9fe;
+  padding: 1rem 2rem;
+}
+.champions .info h5 {
+  font-weight: 700;
+}
+.colored--btn {
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background-image: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  color: #fff;
 }

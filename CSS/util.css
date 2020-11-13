@@ -27,3 +27,6 @@
   color: rgb(165, 41, 41);
   border: 1px solid rgb(165, 41, 41);
 }
+.text-center {
+  text-align: center;
+}

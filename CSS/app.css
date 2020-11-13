@@ -4,4 +4,56 @@
   height: 100vh;
   justify-content: center;
   align-content: center;
+  margin-bottom: 4rem;
+}
+#champion {
+  margin-bottom: 10rem;
+}
+.champions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.champions .thumb {
+  display: grid;
+  justify-content: center;
+}
+.text-gray {
+  color: #777;
+}
+.mb-5 {
+  margin-bottom: 4rem;
+}
+/* vision-1 */
+.vision-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-bottom: 10rem;
+}
+.vision-1 .info {
+  max-width: 450px;
+  align-self: center;
+}
+.vision-1 .img {
+  padding-left: 40%;
+}
+.vision-1 .img img {
+  width: 100%;
+}
+/* vision-2 */
+.vision-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-bottom: 10rem;
+}
+.vision-2 .info {
+  max-width: 600px;
+  align-self: center;
+  justify-self: end;
+  padding-left: 2rem;
+}
+.vision-2 .img img {
+  width: 100%;
 }
