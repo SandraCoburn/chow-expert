@@ -16,8 +16,10 @@
   padding: 0 12%;
 }
 #home,
-#champion {
-  width: 70%;
+#champion,
+#family,
+#feature {
+  width: 80%;
   margin: 0 auto;
 }
 /* Champion */
@@ -26,7 +28,7 @@
 }
 .champions .thumb {
   background: rgb(241, 235, 230);
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .champions .info {
   background: #f9f9fe;
@@ -36,7 +38,36 @@
   font-weight: 700;
 }
 .colored--btn {
-  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
-  background-image: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #eee4d6 0%, #681203 100%);
+  background-image: linear-gradient(0deg, #e9dac3 0%, #77130a 100%);
   color: #fff;
+}
+/* tags */
+.tags {
+  margin-top: 2rem;
+}
+.tags span {
+  background-image: -webkit-linear-gradient(0deg, #b37c2f 0%, #571004 100%);
+  background-image: linear-gradient(0deg, #c29045 0%, #c01607 100%);
+  color: white;
+  padding: 0.5rem;
+}
+.tags span:hover {
+  background: white;
+  color: rgb(165, 41, 41);
+  border: 1px solid rgb(165, 41, 41);
+}
+/* features */
+#feature {
+  margin-bottom: 10rem;
+  background: url('../imgs/bannerbrown.webp');
+  height: 100%;
+  padding: 5rem !important;
+  color: #f5f5f5;
+}
+.features .card {
+  box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+  background: #f5f5f5;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
 }

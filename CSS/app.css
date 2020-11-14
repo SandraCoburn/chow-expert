@@ -29,14 +29,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 .vision-1 .info {
   max-width: 450px;
   align-self: center;
 }
 .vision-1 .img {
-  padding-left: 40%;
+  padding-left: 20%;
 }
 .vision-1 .img img {
   width: 100%;
@@ -46,14 +46,33 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 .vision-2 .info {
   max-width: 600px;
   align-self: center;
   justify-self: end;
-  padding-left: 2rem;
+  padding-left: 8rem;
 }
 .vision-2 .img img {
   width: 100%;
+  padding-left: 10%;
+}
+/* family */
+.family {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.family header {
+  grid-column: 1/-1;
+  margin-bottom: 0;
+}
+.family .thumb img {
+  width: 100%;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
 }
