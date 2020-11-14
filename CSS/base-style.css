@@ -1,0 +1,79 @@
+.demo-layout-transparent {
+  background: url('../imgs/banner-2369464__340.webp') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: rgb(5, 5, 5);
+}
+
+.mdl-layout__drawer .mdl-layout-title {
+  background-image: -webkit-linear-gradient(0deg, #26272e 0%, #48444b 100%);
+  background-image: linear-gradient(0deg, #494b5c 0%, #ded5e4 100%);
+}
+.nav {
+  padding: 0 12%;
+}
+#home,
+#champion,
+#family,
+#features,
+#brand,
+#blog {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Champion */
+.champions .card {
+  box-shadow: 0px 10px 30px 0px rgba(63, 41, 8, 0.2);
+}
+.champions .thumb {
+  background: rgb(241, 235, 230);
+  padding: 2rem 0;
+}
+.champions .info {
+  background: #f9f9fe;
+  padding: 1rem 2rem;
+}
+.champions .info h5 {
+  font-weight: 700;
+}
+.colored--btn {
+  background-image: -webkit-linear-gradient(0deg, #eee4d6 0%, #681203 100%);
+  background-image: linear-gradient(0deg, #e9dac3 0%, #77130a 100%);
+  color: #fff;
+}
+/* tags */
+.tags {
+  margin-top: 2rem;
+}
+.tags span {
+  background-image: -webkit-linear-gradient(0deg, #b37c2f 0%, #571004 100%);
+  background-image: linear-gradient(0deg, #c29045 0%, #c01607 100%);
+  color: white;
+  padding: 0.5rem;
+}
+.tags span:hover {
+  background: white;
+  color: rgb(165, 41, 41);
+  border: 1px solid rgb(165, 41, 41);
+}
+/* features */
+#feature {
+  margin-bottom: 10rem;
+  background: url('../imgs/bannerbrown.webp');
+  height: 100%;
+  padding: 5rem !important;
+  color: #f5f5f5;
+}
+.features .card {
+  box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+  background: #f5f5f5;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+.features .material-icons {
+  position: relative;
+  top: 0.3rem;
+}
