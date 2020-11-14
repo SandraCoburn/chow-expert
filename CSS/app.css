@@ -76,3 +76,44 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
 }
+.features .card a {
+  text-decoration: none;
+  color: #222;
+}
+.features .card a h5 {
+  font-weight: 700;
+  font-size: 140%;
+}
+/* brand */
+.brand {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
+  padding-bottom: 5rem;
+}
+.brand img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all 1s;
+  width: 60%;
+  border-radius: 10px;
+}
+.brand img:hover {
+  filter: grayscale(0);
+}
+/* blog */
+.blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 5rem;
+}
+.blog header {
+  grid-column: 1/-1;
+}
+.blog .thumb img {
+  width: 100%;
+}
+.blog .info h5 {
+  font-weight: 700;
+}
