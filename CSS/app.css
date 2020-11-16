@@ -137,3 +137,34 @@
   display: grid;
   justify-self: start;
 }
+/* footer */
+.footer {
+  background: #2f1e22;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #999669, #dbb128);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #909287, #e69216);
+  /* W3C, IE 10+/ Edge, Firefos 16+, Chrome 26+, Opera 12+, Safari 7+  */
+}
+.footer .row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-bottom: 4rem;
+}
+.footer .col1 {
+  display: grid;
+  grid-row-gap: 1rem;
+}
+.footer .mdl-textfield__label {
+  color: #ddd;
+}
+
+.footer .feeds {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.footer .feeds img {
+  width: 100%;
+}
