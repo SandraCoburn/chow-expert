@@ -20,7 +20,8 @@
 #family,
 #features,
 #brand,
-#blog {
+#blog,
+#contact {
   width: 80%;
   margin: 0 auto;
 }
@@ -58,6 +59,7 @@
   background: white;
   color: rgb(165, 41, 41);
   border: 1px solid rgb(165, 41, 41);
+  cursor: pointer;
 }
 /* features */
 #feature {

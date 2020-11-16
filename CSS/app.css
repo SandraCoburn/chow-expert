@@ -22,7 +22,7 @@
   color: #777;
 }
 .mb-5 {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 /* vision-1 */
 .vision-1 {
@@ -89,7 +89,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 .brand img {
   filter: grayscale(100%);
@@ -106,7 +106,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 .blog header {
   grid-column: 1/-1;
@@ -116,4 +116,24 @@
 }
 .blog .info h5 {
   font-weight: 700;
+}
+/* contact */
+.contact {
+  margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.contact .detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.msg-form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.msg-form button {
+  display: grid;
+  justify-self: start;
 }
