@@ -20,7 +20,9 @@
 #family,
 #features,
 #brand,
-#blog {
+#blog,
+#contact,
+.footer-div {
   width: 80%;
   margin: 0 auto;
 }
@@ -58,6 +60,7 @@
   background: white;
   color: rgb(165, 41, 41);
   border: 1px solid rgb(165, 41, 41);
+  cursor: pointer;
 }
 /* features */
 #feature {
@@ -76,4 +79,19 @@
 .features .material-icons {
   position: relative;
   top: 0.3rem;
+}
+/* footer */
+#footer {
+  height: 40vh;
+  color: #f5f5f5;
+}
+.footer a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.footer-div > p {
+  text-align: center;
+}
+.footer input #email {
+  border-bottom-color: 2px solid #fff;
 }
