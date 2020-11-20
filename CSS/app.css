@@ -168,3 +168,50 @@
 .footer .feeds img {
   width: 100%;
 }
+img {
+  width: 100%;
+}
+@media (max-width: 1400px) {
+  .nav {
+    padding: 0 2%;
+  }
+  #home,
+  #champion,
+  #family,
+  #features,
+  #brand,
+  #blog,
+  #contact,
+  .footer-div {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1025px) {
+  #home h1 {
+    font-size: 300%;
+  }
+  .champions {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5%;
+  }
+  #family {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #contact .detail {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #contact .detail .add {
+    grid-row: 2/3;
+  }
+  .footer {
+    height: 70vh;
+  }
+  .footer .col2 {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+  }
+}
