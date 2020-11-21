@@ -35,11 +35,9 @@
   max-width: 450px;
   align-self: center;
 }
-.vision-1 .img {
-  padding-left: 20%;
-}
+
 .vision-1 .img img {
-  width: 100%;
+  margin-top: 5%;
 }
 /* vision-2 */
 .vision-2 {
@@ -56,7 +54,7 @@
 }
 .vision-2 .img img {
   width: 100%;
-  padding-left: 10%;
+  /* padding-left: 10%; */
 }
 /* family */
 .family {
@@ -231,19 +229,30 @@ img {
   h3.title {
     font-size: 170%;
   }
-  .champions {
+  .champions,
+  .vision-1,
+  .vision-2,
+  #family,
+  .features,
+  #contact,
+  .detail,
+  .blog,
+  .footer,
+  .row {
     grid-template-columns: 1fr;
   }
   .vision-1 .info {
     max-width: 100%;
   }
   .vision-1 {
-    grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
+    padding-left: 0;
+  }
+  .vision1 img {
+    padding-left: 0;
   }
   .vision-2 {
-    grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
   }
@@ -251,35 +260,23 @@ img {
     max-width: 100%;
     grid-row: 2/3;
   }
-  #family {
-    grid-template-columns: 1fr;
-  }
+
   #feature {
     padding: 1rem !important;
   }
-  .features {
-    grid-template-columns: 1fr;
-  }
+
   #brand {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
 
-  #blog {
-    grid-template-columns: 1fr;
-  }
-  #contact .detail {
-    grid-template-columns: 1fr;
-  }
   #contact .detail .add {
     grid-row: 3/4;
   }
   #footer {
     height: 100%;
   }
-  .footer .row {
-    grid-template-columns: 1fr;
-  }
+
   .footer .col2 {
     grid-column: 1/-1;
     grid-row: 1/2;

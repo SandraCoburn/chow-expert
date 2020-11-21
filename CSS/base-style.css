@@ -22,6 +22,7 @@
   position: fixed;
   width: 100%;
   margin: 0 autp;
+  transition: all 1s;
 }
 #home,
 #champion,
@@ -104,6 +105,7 @@
   border-bottom-color: 2px solid #fff;
 }
 .scrollup {
+  display: none;
   position: fixed;
   right: 3rem;
   bottom: 2rem;
