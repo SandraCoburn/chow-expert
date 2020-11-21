@@ -1,3 +1,7 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
 .demo-layout-transparent {
   background: url('../imgs/banner-2369464__340.webp') center / cover;
 }
@@ -98,4 +102,10 @@
 }
 .footer input #email {
   border-bottom-color: 2px solid #fff;
+}
+.scrollup {
+  position: fixed;
+  right: 3rem;
+  bottom: 2rem;
+  z-index: 999;
 }
