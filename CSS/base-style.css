@@ -1,3 +1,7 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
 .demo-layout-transparent {
   background: url('../imgs/banner-2369464__340.webp') center / cover;
 }
@@ -6,14 +10,19 @@
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
   color: rgb(5, 5, 5);
+  font-weight: 700;
 }
 
 .mdl-layout__drawer .mdl-layout-title {
   background-image: -webkit-linear-gradient(0deg, #26272e 0%, #48444b 100%);
   background-image: linear-gradient(0deg, #494b5c 0%, #ded5e4 100%);
 }
-.nav {
+.nav-toggle {
   padding: 0 12%;
+  position: fixed;
+  width: 100%;
+  margin: 0 autp;
+  transition: all 1s;
 }
 #home,
 #champion,
@@ -94,4 +103,11 @@
 }
 .footer input #email {
   border-bottom-color: 2px solid #fff;
+}
+.scrollup {
+  display: none;
+  position: fixed;
+  right: 3rem;
+  bottom: 2rem;
+  z-index: 999;
 }
