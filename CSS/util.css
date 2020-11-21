@@ -1,7 +1,6 @@
 .mdl-navigation__link {
   text-transform: uppercase;
-  text-shadow: blue;
-  font-weight: 500;
+  font-weight: 700;
 }
 .mdl-layout__header-row .mdl-navigation__link {
   color: black;
@@ -9,6 +8,7 @@
 .text-black {
   color: black;
 }
+
 .banner-img img {
   border-radius: 4px;
 }
